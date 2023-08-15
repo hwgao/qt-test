@@ -21,7 +21,6 @@ qt_add_qml_module(apptranslate
 
 qt_add_translations(apptranslate
     TS_FILES apptranslate_en.ts apptranslate_cn.ts
-    LRELEASE_OPTIONS -idbased
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -3,16 +3,13 @@
 <TS version="2.1" language="zh" sourcelanguage="en">
 <context>
     <name></name>
-    <message id="welcome-message-2">
-        <location filename="Main.qml" line="13"/>
-        <location filename="main.cpp" line="23"/>
-        <source></source>
-        <translation>欢迎 2</translation>
-    </message>
-    <message id="welcome-message">
-        <location filename="main.cpp" line="28"/>
-        <source></source>
+    <message>
+        <source>welcome-message</source>
         <translation>欢迎 %1-%2</translation>
+    </message>
+    <message>
+        <source>welcome-message-2</source>
+        <translation>欢迎 2</translation>
     </message>
 </context>
 </TS>
