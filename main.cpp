@@ -19,8 +19,10 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
+    // for arg(), if all parameters are in same type, you can use arg(a, b, ...)
+    // or you set each parameter separately with arg()
     //% Welcome %1 from %2
-    MessageProvider msgProvider{qtTrId("welcome-message").arg("a", "b")};
+    MessageProvider msgProvider{qtTrId("welcome-message").arg("😊😊").arg(44)};
     engine.rootContext()->setContextProperty("messageProvider", &msgProvider);
     const QUrl url(u"qrc:/translate/Main.qml"_qs);
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreationFailed,

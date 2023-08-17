@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>welcome-message-2</source>
-        <translation>Welcome 2</translation>
+        <translation>Welcome 2 %1-%2</translation>
     </message>
 </context>
 </TS>

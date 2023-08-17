@@ -10,7 +10,7 @@ Window {
         id: testText
         visible: true
         anchors.centerIn: parent
-        text: qsTrId("welcome-message-2")
+        text: qsTrId("welcome-message-2").arg("33").arg("44")
         scale: 3
     }
 }
